@@ -36,7 +36,7 @@ This project is a part of the AAI-550 course in the Applied Artificial Intellige
    jupyter lab
    ```
 
-4. Open and run the notebooks: `air_quality_analysis.ipynb` to explore the analysis.
+4. Open and run the notebooks: `Prediction_of_CO_Levels_Using_Machine_Learning.ipynb` to explore the analysis.
 
 ### Using Google Colab
 If you prefer a cloud-based environment without local setup:
@@ -88,7 +88,7 @@ The primary questions we are exploring include:
 - What are the patterns in air quality over time and their correlations with environmental factors?
 - How do we handle missing values and sensor drift in the data?
 
-We are using data preprocessing techniques to clean the data (handling -200 missing value tags), exploratory data analysis and visualization to understand distributions and correlations, and machine learning models (such as regression algorithms) to predict pollutant levels. The analysis includes time-series visualizations, box plots, probability distributions, heatmaps showing correlations between pollutants and weather variables, and a correlation heatmap among pollutants with detailed pollutant-wise interpretations. A specific model is implemented to predict CO concentrations using Generalized Linear Models (GLM). Challenges include dealing with time-series nature of the data, cross-sensitivities between sensors, and concept drift affecting sensor performance.
+We are using data preprocessing techniques to clean the data (handling -200 missing value tags), exploratory data analysis and visualization to understand distributions and correlations, and machine learning models to predict pollutant levels. The analysis includes time-series visualizations, box plots, probability distributions, heatmaps showing correlations between pollutants and weather variables, and a correlation heatmap among pollutants with detailed pollutant-wise interpretations. A specific model is implemented to predict CO concentrations using Generalized Linear Models (GLM). Challenges include dealing with time-series nature of the data, cross-sensitivities between sensors, and concept drift affecting sensor performance.
 
 ## License
 
